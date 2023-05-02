@@ -5,6 +5,7 @@ from settings import Settings
 
 
 class AlienInvasion:
+    """Overall class to manage game assets and behavior."""
     def __init__(self):
         pygame.init()
         self.settings = Settings()

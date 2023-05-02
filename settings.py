@@ -1,5 +1,5 @@
 class Settings:
-
+    """A class to store all the settings for the game"""
     def __init__(self):
         # screen settings
         self.screen_width = 1200
