@@ -16,7 +16,6 @@ class AlienInvasion:
         pygame.display.set_caption('Alien Invasion')
         self.ship = Ship(self)
 
-        self.bg_color = (230, 230, 230)
 
     def run_game(self):
         while True:
